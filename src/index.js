@@ -12,10 +12,6 @@ const errorEl = document.querySelector('.error');
 
 ////////////////////////////////////////////////////////////
 
-const displaySelect = new SlimSelect({
-  select: breedSelectEl,
-});
-
 // for creating the options
 function chooseBreed(data) {
   fetchBreeds(data)
